@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Laboratorium 2</string>
+    <string name="photo">Zrób zdjęcie</string>
+    <string name="action_photo">Zrob zdjecie</string>
+    <string name="action_contacts">Wyszukaj kontakt</string>
+    <string name="access_denied">Dostęp wymagany do wykonania tej akcji</string>
+    <string name="button_call">Zadzwoń</string>
+    <string name="button_sms">Wyślij sms</string>
+    <string name="text1">Nie mogę odebrać.</string>
+    <string name="wysy_anie_wiadomo_ci_tekstowej">Wysyłanie wiadomości tekstowej</string>
+    <string name="numer_telefonu">numer telefonu</string>
+    <string name="sp_ni_si_na_spotkanie">Spóźnię się na spotkanie.</string>
+    <string name="todo">TODO</string>
+    <string name="wy_lij_sms" />
+    <string name="wy_lij_sms1">wyślij sms</string>
+    <string name="wybierz_zdj_cie">Wybierz zdjęcie</string>
+</resources>

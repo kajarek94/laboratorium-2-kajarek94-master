@@ -32,10 +32,10 @@
             <!--android:layout_height="wrap_content"-->
             <!--android:layout_below="@+id/imageButton"-->
             <!--android:layout_centerHorizontal="true"-->
+            <!--android:autofillHints=""-->
             <!--android:hint="@string/numer_telefonu"-->
             <!--android:inputType="phone"-->
-            <!--android:textColorHint="@color/colorAccent"-->
-            <!--android:autofillHints="" />-->
+            <!--android:textColorHint="@color/colorAccent" />-->
 
         <!--<TextView-->
             <!--android:id="@+id/text1"-->
@@ -46,7 +46,7 @@
             <!--android:textColorHint="@color/colorPrimary" />-->
 
         <!--<TextView-->
-            <!--android:id="@+id/textView"-->
+            <!--android:id="@+id/txtMessage"-->
             <!--android:layout_width="match_parent"-->
             <!--android:layout_height="wrap_content"-->
             <!--android:text="@string/sp_ni_si_na_spotkanie"-->
@@ -60,11 +60,39 @@
             <!--android:layout_below="@+id/editText2"-->
             <!--android:layout_centerHorizontal="true"-->
             <!--android:layout_marginTop="48dp"-->
-            <!--android:text="@string/wy_lij_sms" />-->
+            <!--android:text="@string/wy_lij_sms1" />-->
 
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:padding="5dp">-->
+
+            <!--<Button-->
+                <!--android:id="@+id/btnSelectPhoto"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/select_photo" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="101dp"-->
+            <!--android:orientation="vertical"-->
+            <!--android:padding="10dp">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/viewImage"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:contentDescription="@string/todo"-->
+                <!--app:srcCompat="@android:drawable/ic_menu_camera" />-->
+        <!--</LinearLayout>-->
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_main" />
-
+    <include
+        layout="@layout/content_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </android.support.design.widget.CoordinatorLayout>
